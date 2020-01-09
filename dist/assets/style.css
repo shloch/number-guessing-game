@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+body {
+  text-align: center;
+  font-family: 'Righteous', cursive;
+
+}
+
+div[id="smiley-img"] {
+  margin: auto;
+  /*border: 1px solid red;*/
+  width: 250px;
+  height: 200px;
+}
+
+div[id="smiley-img"] img {
+  height: 100%;
+  width: 100%;
+}
+
+div[id="flash-infos"] {
+  color: red;
+  font-size: larger;
+}
+
+.success {
+  color: green;
+}
+
+button {
+  height: 30px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: palegreen;
+}
+
+input {
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: larger;
+  text-align: center;
+}
+
+
+
+input:focus {
+  border-bottom: 2px solid green;
+  color: orangered;
+}
