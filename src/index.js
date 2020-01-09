@@ -14,10 +14,10 @@ function beginsGame() {
   if (game.isNumberCorrect(+inputNum)) {
     flashDiv.innerHTML = messageModule.success();
     smileyBlk.innerHTML = smileyModule.success();
-  } else if (+inputNum > game.getMagicNumber() + 100) {
+  } else if (+inputNum > game.getMagicNumber() + 10) {
     flashDiv.innerHTML = messageModule.poor_above();
     smileyBlk.innerHTML = smileyModule.poor_above();
-  } else if (+inputNum < game.getMagicNumber() - 100) {
+  } else if (+inputNum < game.getMagicNumber() - 10) {
     flashDiv.innerHTML = messageModule.poor_below();
     smileyBlk.innerHTML = smileyModule.poor_below();
   } else if (+inputNum > game.getMagicNumber()) {
